@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00f1fa40-3292-47aa-b127-edd427fc2691" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter1_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter1_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter2_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter2_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter3_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter3_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/chapter1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/chapter2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/chapter3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/ConfigConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/DispatcherServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/HelperLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/annotation/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/annotation/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/annotation/Inject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/annotation/RequestMapping.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/annotation/RequestMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/bean/Handler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/bean/Request.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/BeanHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/ClassHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/ConfigHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/ControllerHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/IocHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/ServletHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/helper/UploadHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/ArrayUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/CastUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/ClassUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/CodecUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/CollectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/JsonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/PropsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/ReflectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/StreamUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/util/StringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/images.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/chapter1/target/" />
     <ignored path="$PROJECT_DIR$/chapter2/target/" />
@@ -104,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelperLoader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelperLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter3/src/main/java/cn/axboy/smart/HelperLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -112,6 +51,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -849,12 +798,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513738669714</updated>
-      <workItem from="1513743662074" duration="12040000" />
+      <workItem from="1513743662074" duration="12170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12040000" />
+    <option name="totallyTimeSpent" value="12170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,7 +816,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -888,7 +837,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -917,13 +866,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1254,6 +1196,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
