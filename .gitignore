@@ -6,15 +6,17 @@ out
 .project
 .classpath
 *.log
-*.iml
-*.ipr
-*.iws
 *.swp
-.idea
+
+### IntelliJ IDEA ###
+#.idea
+#*.iws
+#*.iml
+#*.ipr
+
 .DS_Store
 .gradle
 .tmp
 bin/
 .settings/
-
 *.class
