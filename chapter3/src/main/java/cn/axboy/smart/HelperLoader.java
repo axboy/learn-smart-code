@@ -3,6 +3,7 @@ package cn.axboy.smart;
 import cn.axboy.smart.helper.BeanHelper;
 import cn.axboy.smart.helper.ClassHelper;
 import cn.axboy.smart.helper.ControllerHelper;
+import cn.axboy.smart.helper.IocHelper;
 import cn.axboy.smart.util.ClassUtil;
 
 /**
@@ -17,8 +18,7 @@ public final class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
-//                AopHelper.class,
-//                IocHelper.class,
+                IocHelper.class,
                 ControllerHelper.class
         };
         for (Class<?> cls : classList) {

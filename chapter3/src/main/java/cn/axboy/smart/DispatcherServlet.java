@@ -7,11 +7,9 @@ import cn.axboy.smart.bean.Param;
 import cn.axboy.smart.bean.View;
 import cn.axboy.smart.helper.BeanHelper;
 import cn.axboy.smart.helper.ControllerHelper;
-import cn.axboy.smart.helper.ServletHelper;
 import cn.axboy.smart.util.*;
 
 import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,18 +27,16 @@ import java.util.Map;
  * @version 1.0.0
  * @date 2017/12/20 12:24
  */
-@WebServlet(urlPatterns = "/home/index", loadOnStartup = -1)
+@WebServlet(urlPatterns = "/*", loadOnStartup = 0)
 public class DispatcherServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
         HelperLoader.initHelper();
-        ServletContext context = config.getServletContext();
     }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ServletHelper.init(req, resp);
 
         RequestMethod requestMethod = RequestMethod.valueOf(req.getMethod().toUpperCase());
         String requestPath = req.getPathInfo();
@@ -72,7 +68,7 @@ public class DispatcherServlet extends HttpServlet {
             Param param = new Param(paramMap);
             Object result = ReflectionUtil.invokeMethod(controllerBean, actionMethod, param);
             if (result instanceof View) {
-                //TODO
+                //TODO 返回视图
             } else if (result instanceof Data) {
                 Data data = (Data) result;
                 Object model = data.getModel();
@@ -86,6 +82,9 @@ public class DispatcherServlet extends HttpServlet {
                     pw.close();
                 }
             }
+            return;
         }
+        resp.setContentType("text/json; charset=UTF-8");
+        resp.getOutputStream().write("404".getBytes("utf-8"));
     }
 }

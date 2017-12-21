@@ -28,13 +28,18 @@ public class Request {
 
     @Override
     public int hashCode() {
-        //TODO 修改
-        return super.hashCode();
+        return (requestMethod.hashCode() & 0xffff0000) | requestPath.hashCode() >> 16;
     }
 
     @Override
     public boolean equals(Object obj) {
-        //TODO 修改
-        return super.equals(obj);
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof Request) {
+            Request req = (Request) obj;
+            return req.requestMethod == requestMethod && req.requestPath.equals(requestPath);
+        }
+        return false;
     }
 }

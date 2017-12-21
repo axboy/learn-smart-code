@@ -19,6 +19,6 @@ public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         resp.setContentType("text/json; charset=UTF-8");
-        resp.getOutputStream().write("hello world by servlet".getBytes("utf-8"));
+        resp.getOutputStream().write("hello world by servlet in chapter 2".getBytes("utf-8"));
     }
 }

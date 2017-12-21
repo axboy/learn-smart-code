@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * @version 1.0.0
  * @date 2017/12/20 11:30
  */
-@Target(ElementType.FIELD)
+@Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Component {
