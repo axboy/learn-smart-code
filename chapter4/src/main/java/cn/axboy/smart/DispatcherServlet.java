@@ -6,6 +6,7 @@ import cn.axboy.smart.bean.Handler;
 import cn.axboy.smart.bean.Param;
 import cn.axboy.smart.bean.View;
 import cn.axboy.smart.helper.BeanHelper;
+import cn.axboy.smart.helper.ConfigHelper;
 import cn.axboy.smart.helper.ControllerHelper;
 import cn.axboy.smart.util.*;
 
@@ -68,7 +69,19 @@ public class DispatcherServlet extends HttpServlet {
             Param param = new Param(paramMap);
             Object result = ReflectionUtil.invokeMethod(controllerBean, actionMethod, param);
             if (result instanceof View) {
-                //TODO 返回视图
+                View view = (View) result;
+                String path = view.getPath();
+                if (StringUtil.isNotEmpty(path)) {
+                    if (path.startsWith("/")) {
+                        resp.sendRedirect(req.getContextPath() + path);
+                        return;
+                    }
+                    Map<String, Object> model = view.getModel();
+                    model.forEach((key, value) -> {
+                        req.setAttribute(key, value);
+                    });
+                    req.getRequestDispatcher(ConfigHelper.getAppJspPath() + path).forward(req, resp);
+                }
             } else if (result instanceof Data) {
                 Data data = (Data) result;
                 Object model = data.getModel();

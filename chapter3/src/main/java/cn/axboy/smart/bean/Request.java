@@ -28,7 +28,7 @@ public class Request {
 
     @Override
     public int hashCode() {
-        return (requestMethod.hashCode() & 0xffff0000) | requestPath.hashCode() >> 16;
+        return (requestMethod.hashCode() | requestPath.hashCode() >> 8);
     }
 
     @Override

@@ -20,4 +20,11 @@ public final class ConfigHelper {
     public static String getAppBasePackage() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_BASE_PACKAGE);
     }
+
+    /**
+     * 获取jsp文件路径
+     */
+    public static String getAppJspPath() {
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH);
+    }
 }

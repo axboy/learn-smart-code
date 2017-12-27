@@ -9,4 +9,5 @@ package cn.axboy.smart;
 public interface ConfigConstant {
     String CONFIG_FILE = "smart.properties";
     String APP_BASE_PACKAGE = "smart.app.base_package";
+    String APP_JSP_PATH = "smart.app.jsp_path";
 }
