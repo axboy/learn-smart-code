@@ -1,3 +1,3 @@
 ### smart-framework 初稿
 
-未处理细节
+实现基本的controller分发，service注入

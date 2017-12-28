@@ -33,6 +33,9 @@ public final class AopHelper {
         }
     }
 
+    /**
+     * 获取代理类集合
+     */
     private static Map<Class<?>, Set<Class<?>>> createProxyMap() throws Exception {
         Map<Class<?>, Set<Class<?>>> proxyMap = new HashMap<>();
         addAspectProxy(proxyMap);
@@ -53,6 +56,9 @@ public final class AopHelper {
         }
     }
 
+    /**
+     * 获取代理目标类集合
+     */
     private static Set<Class<?>> createTargetClassSet(Aspect aspect) throws Exception {
         Set<Class<?>> targetClassSet = new HashSet<>();
         Class<? extends Annotation> annotation = aspect.value();
@@ -62,8 +68,11 @@ public final class AopHelper {
         return targetClassSet;
     }
 
+    /**
+     *
+     */
     private static Map<Class<?>, List<Proxy>> createTargetMap(Map<Class<?>, Set<Class<?>>> proxyMap) throws Exception {
-        Map<Class<?>, List<Proxy>> targetMap = new HashMap<Class<?>, List<Proxy>>();
+        Map<Class<?>, List<Proxy>> targetMap = new HashMap<>();
         for (Map.Entry<Class<?>, Set<Class<?>>> proxyEntry : proxyMap.entrySet()) {
             Class<?> proxyClass = proxyEntry.getKey();
             Set<Class<?>> targetClassSet = proxyEntry.getValue();

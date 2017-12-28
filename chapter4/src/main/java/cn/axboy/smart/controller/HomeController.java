@@ -24,6 +24,6 @@ public class HomeController {
     public Data index(Param param) {
         //测试依赖注入
         homeService.test();
-        return new Data("hello world by HomeController in chapter 3");
+        return new Data("hello world by HomeController in chapter 4");
     }
 }
