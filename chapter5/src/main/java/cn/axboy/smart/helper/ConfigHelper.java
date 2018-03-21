@@ -27,4 +27,13 @@ public final class ConfigHelper {
     public static String getAppJspPath() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH);
     }
+
+    /**
+     * 文件上传限制
+     *
+     * @return
+     */
+    public static int getAppIploadLimit() {
+        return PropsUtil.getInt(CONFIG_PROPS, ConfigConstant.APP_UPLOAD_LIMIT, 10);
+    }
 }

@@ -8,6 +8,11 @@ package cn.axboy.smart.util;
 public final class StringUtil {
 
     /**
+     * 字符串分隔符
+     */
+    public static final String SEPARATOR = String.valueOf((char) 29);
+
+    /**
      * 判断字符串是否为空
      */
     public static boolean isEmpty(String str) {

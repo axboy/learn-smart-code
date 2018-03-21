@@ -10,4 +10,5 @@ public interface ConfigConstant {
     String CONFIG_FILE = "smart.properties";
     String APP_BASE_PACKAGE = "smart.app.base_package";
     String APP_JSP_PATH = "smart.app.jsp_path";
+    String APP_UPLOAD_LIMIT = "smart.app.upload_limit";
 }
