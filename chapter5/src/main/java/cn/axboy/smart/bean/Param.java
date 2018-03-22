@@ -100,5 +100,23 @@ public class Param {
         return null;
     }
 
-    //TODO 其它一些get方法和判断
+    public boolean isEmpty() {
+        return CollectionUtil.isEmpty(formParamList) && CollectionUtil.isEmpty(fileParamList);
+    }
+
+    public String getString(String name) {
+        return CastUtil.castString(getFieldMap().get(name));
+    }
+
+    public Double getDouble(String name) {
+        return CastUtil.castDouble(getFieldMap().get(name));
+    }
+
+    public Integer getInteger(String name) {
+        return CastUtil.castInt(getFieldMap().get(name));
+    }
+
+    public Boolean getBoolean(String name) {
+        return CastUtil.castBoolean(getFieldMap().get(name));
+    }
 }
