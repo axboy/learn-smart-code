@@ -42,6 +42,7 @@ public final class UploadHelper {
      * @param servletContext
      */
     public static void init(ServletContext servletContext) {
+        //Servlet缓存目录
         File repository = (File) servletContext.getAttribute("javax.servlet.context.tempdir");
         servletFileUpload = new ServletFileUpload(
                 new DiskFileItemFactory(DiskFileItemFactory.DEFAULT_SIZE_THRESHOLD, repository)

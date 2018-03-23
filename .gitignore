@@ -9,10 +9,10 @@ out
 *.swp
 
 ### IntelliJ IDEA ###
-#.idea
-#*.iws
-#*.iml
-#*.ipr
+.idea
+*.iws
+*.iml
+*.ipr
 
 .DS_Store
 .gradle
