@@ -45,7 +45,7 @@ public class DispatcherServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-
+        ServletHelper.init(req, resp);
         RequestMethod requestMethod = RequestMethod.valueOf(req.getMethod().toUpperCase());
         String requestPath = req.getPathInfo();
 
@@ -75,6 +75,7 @@ public class DispatcherServlet extends HttpServlet {
                 handleDataResult((Data) result, req, resp);
             }
         }
+        ServletHelper.destory();
     }
 
     private void handleViewResult(View view, HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
