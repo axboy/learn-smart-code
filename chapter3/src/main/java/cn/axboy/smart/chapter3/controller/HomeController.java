@@ -1,11 +1,11 @@
 package cn.axboy.smart.chapter3.controller;
 
-import cn.axboy.smart.chapter3.annotation.Controller;
-import cn.axboy.smart.chapter3.annotation.Inject;
-import cn.axboy.smart.chapter3.annotation.RequestMapping;
-import cn.axboy.smart.chapter3.annotation.RequestMethod;
-import cn.axboy.smart.chapter3.bean.Data;
-import cn.axboy.smart.chapter3.bean.Param;
+import cn.axboy.smart.annotation.Inject;
+import cn.axboy.smart.annotation.RequestMapping;
+import cn.axboy.smart.annotation.RequestMethod;
+import cn.axboy.smart.bean.Data;
+import cn.axboy.smart.bean.Param;
+import cn.axboy.smart.annotation.Controller;
 import cn.axboy.smart.chapter3.service.HomeService;
 
 /**

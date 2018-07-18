@@ -1,6 +1,6 @@
 package cn.axboy.smart.chapter3.service;
 
-import cn.axboy.smart.chapter3.annotation.Component;
+import cn.axboy.smart.annotation.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
